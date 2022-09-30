@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+body{
+    background-image: url(../images/discount.jpg);
+}
+
+.discount{
+    min-height: 100vh;
+    text-align: center;
+    background-image: url(../images/discount.jpg);
+    
+}
+
+.discount .heading{
+    margin: 1em 0 0.5em 0;
+	color: darkkhaki;
+	font-weight: normal;
+	font-family: 'Akaya Kanadaka', cursive;  
+	font-size: 56px;
+	line-height: 62px;
+	text-transform: uppercase;
+	text-shadow: 0 2px white, 0 3px #777;
+}
+
+.discount .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.discount .box-container .box{
+    flex: 1 1 27 rem;
+    padding: 2rem 3rem;
+    height:40rem;
+    margin:1.5rem 1rem;
+    width:27rem;
+    border:.5rem solid grey;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 .3rem .5rem #000;
+    background-image: url(../images/discount\ background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.discount .box-container .box:hover{
+    transform: scale(1.09);
+}
+
+.discount .box-container .box img{
+    height:13.5rem;
+    width: 50%;
+    padding: 1rem;
+    object-fit: cover;
+}
+.discount .box-container .box h3{
+    font-size: 2.5rem;
+    color: darkgreen;
+    text-transform: uppercase;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+.discount .box-container .box ul{
+    list-style: none;
+}
+
+.discount .box-container .box ul li{
+    font-size: 2.5rem;
+    color: darkgreen;
+    font-family: 'Akaya Kanadaka', cursive;
+    text-align: left;
+    padding:.5rem 0;
+    font-size: 1.5rem;
+}

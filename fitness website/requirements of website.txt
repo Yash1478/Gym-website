@@ -1,0 +1,6 @@
+Requirements for website to work:
+1. Internet connectivity.
+2. Used cdn link of jquery.
+3. link of font awesome.
+4. link of google fonts.
+all link required good internet connection.
